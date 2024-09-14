@@ -1,0 +1,93 @@
+/*Paleta obtenida de: https://paletadecolores.com.mx/paleta/277e1b/1d6815/13520e/0a3b07/002500/ */
+body {
+    color: #002500;
+    background-color: #d0d8d4;
+}
+
+header {
+    background: linear-gradient(to right, #277e1b, #1d6815);
+    color: #ffffff;
+}
+
+header h1 span {
+    color: #ffeb3b;
+}
+
+header .btn {
+    background: #13520e;
+    color: #ffffff;
+}
+
+nav ul li a {
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    color: #13520e;
+}
+
+#about {
+    background-color: #ffffff;
+}
+
+#projects {
+    background-color: #d0d8d4;
+
+}
+
+.project {
+    background: #ffffff;
+}
+
+footer {
+    background-color: #277e1b;
+    color: #ffffff;
+}
+
+footer a {
+    color: #13520e;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+li i {
+    color: #ff5722;
+}
+
+.rating {
+    color: #ffbf00;
+}
+
+.rating span {
+    color: #002500;
+}
+
+.container {
+    background-color: #d0d8d4;
+    color: #002500;
+}
+
+.column {
+    background-color: #fff;
+    color: #000000;
+}
+
+.column h2{
+    background-color: #277e1b;
+    margin: -20px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+}
+
+.win {
+    background-color: #002b36;
+}
+
+#contact p,
+#contact a {
+    color: #d0d8d4;
+    font-size: 24px;
+}
