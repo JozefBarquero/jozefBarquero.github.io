@@ -408,7 +408,7 @@ section#projects {
         align-content: center;
         margin: 0px auto;
         padding: 0px;
-    }    
+    }    list
 
     .project_forma {
         display: flex;
@@ -514,3 +514,34 @@ section#projects {
     }
     
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .column h2 {
+        min-height: 6rem;
+        text-align: center;
+        align-content: center;
+    }
+    ul {
+        list-style-type: none;
+        padding: 1px;
+    }
+    
+    li {
+        margin: 1px 0;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+
+    .project video {
+        width: 100%;
+        max-height: 200px;
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+    }
+  }
+
