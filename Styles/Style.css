@@ -375,6 +375,10 @@ section#projects {
     margin-top: 10px; 
 }
 
+.scroll-title {
+    display: none;
+}
+
 @media (max-width: 768px) {
     nav ul li {
         margin: 0 1rem;
@@ -512,6 +516,25 @@ section#projects {
     #contact p {
         margin-top: 0px; 
     }
+
+    .scroll-title {
+        display: block;
+        align-items: center;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #5a5a5a;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+
+
+
+    .column h2 {
+        min-height: 6rem;
+        text-align: center;
+        align-content: center;
+    }
     
 }
 
@@ -535,7 +558,6 @@ section#projects {
         transition: transform 0.3s ease, color 0.3s ease;
     }
 
-
     .project video {
         width: 100%;
         max-height: 200px;
@@ -543,5 +565,5 @@ section#projects {
         margin: 0px;
         padding: 0px;
     }
-  }
+}
 

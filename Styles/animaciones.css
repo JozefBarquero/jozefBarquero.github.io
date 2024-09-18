@@ -23,6 +23,11 @@ header h1 {
     animation: fadeInUp 1s ease-out forwards;
 }
 
+h4 {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 1s ease-out forwards;
+}
 header p {
     opacity: 0;
     transform: translateY(-20px);
